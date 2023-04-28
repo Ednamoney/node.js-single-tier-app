@@ -20,7 +20,7 @@ jobs:
           aws-default-region: us-east-1
         run: |
           aws cloudformation deploy \
-            --template-file ./cloudformation.yaml \
+            --template-file cloudformation.yaml \
             --stack-name node-tier-stack1 \
             --capabilities CAPABILITY_NAMED_IAM \
             --parameter-overrides \
