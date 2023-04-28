@@ -24,5 +24,4 @@ jobs:
             --stack-name node-tier-stack1 \
             --capabilities CAPABILITY_NAMED_IAM \
             --parameter-overrides \
-              Ec2-instance \
             --region us-east-1
