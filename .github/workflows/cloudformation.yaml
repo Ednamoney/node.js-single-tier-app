@@ -23,5 +23,4 @@ jobs:
             --template-file single-tier-app.yaml \
             --stack-name node-tier-stack1 \
             --capabilities CAPABILITY_NAMED_IAM \
-            --parameter-overrides \
             --region us-east-1
