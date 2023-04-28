@@ -23,4 +23,6 @@ jobs:
             --template-file single-tier-app.yaml \
             --stack-name node-tier-stack1 \
             --capabilities CAPABILITY_NAMED_IAM \
+            --parameter-overrides \
+              Ec2InstanceType=t2.micro \
             --region us-east-1
